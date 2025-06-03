@@ -67,7 +67,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IU
         }
         //保存用户信息到session
         session.setAttribute("user", user);
-        ////
+        ////asfasd
         return Result.ok(); //不需要返回登陆凭证，因为使用session会将信息自动写入到cookie中，下次登陆就直接带着信息登录
     }
 
